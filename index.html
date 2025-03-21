@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishnavi's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h1 style="cursor:pointer" onclick="history.go(0)">Vaishnavi Nikumbh</h1>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fa-regular fa-bars"></i>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="home" class="home">
+            <div class="content">
+                <h1 class="greet">Hello There! 👋</h1>
+                <h2 class="name">I'm Vaishnavi Nikumbh...</h2>
+                <br />
+                <p class="intro">
+                    A passionate Civil Engineer transitioning into AI & Machine Learning,<br />
+                    dedicated to creating impactful technological solutions.
+                </p>
+            </div>
+            <div class="img">
+                <img src="Profile Photo .jpg" alt="Profile Pic" />
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <div class="title">
+                <h1>About Me</h1>
+            </div>
+            <div class="txt-content">
+                <p>
+                    I am Vaishnavi, a passionate and dedicated AI & Machine Learning enthusiast with a background in Civil Engineering. Transitioning into the tech world, I have honed my skills in Java, machine learning algorithms, and software development. I have hands-on experience in coding, project management, and building real-world applications. Beyond academics, I actively engage in event coordination, leadership roles, and workshops to enhance my technical and professional expertise. With a strong drive for learning and problem-solving, I am committed to leveraging AI to create impactful solutions.
+                </p>
+            </div>
+            <div class="socials">
+                <div class="head">
+                    <h1>Social Links</h1>
+                </div>
+                <div class="icons">
+                    <div class="git">
+                        <a href="https://github.com/vaishnavi162330" target="_blank">
+                            <i class="fa-brands fa-github size"></i>
+                        </a>
+                    </div>
+                    <div class="linkedin space">
+                        <a href="https://www.linkedin.com/in/vaishnavi-nikumbh" target="_blank">
+                            <i class="fa-brands fa-linkedin size"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="skills">
+            <div class="title">
+                <h1>My Skills</h1>
+            </div>
+            <div class="skill_content">
+                <div class="web-dev">
+                    <h1>Web Development</h1>
+                    <div class="list">
+                        <h3><i class="fa-brands fa-html5"></i>&nbsp; HTML</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 98%"></div>
+                        </div>
+
+                        <h3><i class="fa-brands fa-css3-alt"></i>&nbsp; CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 89%"></div>
+                        </div>
+
+                        <h3><i class="fa-brands fa-js"></i>&nbsp; JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="programming">
+                    <h1>Programming</h1>
+                    <div class="list">
+                        <h3><i class="fa-brands fa-java"></i>&nbsp; Java</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+
+                        <h3><i class="fa-brands fa-python"></i>&nbsp; Python</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="projects">
+            <div class="title">
+                <h1>My Projects</h1>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1000&auto=format&fit=crop" alt="Restaurant Menu Application" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Restaurant Menu Application</h3>
+                        <p>A Java-based console application for restaurant menu management.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=1000&auto=format&fit=crop" alt="Simple Calculator" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Simple Calculator</h3>
+                        <p>A web-based calculator application built with HTML, CSS, and JavaScript. Features a clean, modern interface with support for basic arithmetic operations and responsive design for all device sizes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="resume" class="resume">
+            <div class="title">
+                <h1>My Resume</h1>
+            </div>
+            <div class="resume-content">
+                <p>Here is the download link for my resume:</p>
+                <a href="Resume.pdf" download class="resume-btn">
+                    <i class="fa-solid fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <div class="title">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email: <a href="mailto:vaishnavi.official30@gmail.com">vaishnavi.official30@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/vaishnavi-nikumbh" target="_blank">vaishnavi-nikumbh</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-github"></i>
+                        <p>GitHub: <a href="https://github.com/vaishnavi162330" target="_blank">vaishnavi162330</a></p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2025 Vaishnavi Nikumbh. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
